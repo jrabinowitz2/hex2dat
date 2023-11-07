@@ -1,2 +1,2 @@
 # hex2dat
-Simple utility converts SPI flash dumps into usable firmware images
+Utility for converting SPI flash dumps into usable firmware images
