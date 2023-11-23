@@ -23,6 +23,6 @@ infile = args.infile
 outfile = args.outfile
 
 with open(infile,'r') as fp: text = fp.read()
-        text = text.strip()
+  text = text.strip()
 data = binascii.unhexlify(text)
 with open(outfile,'w+') as fp2: fp2.write(data)
